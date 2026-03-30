@@ -2,5 +2,7 @@
   "promptDelete": false,
   "readableLineLength": false,
   "strictLineBreaks": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true
 }

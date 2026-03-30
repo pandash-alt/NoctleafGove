@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c358bd8b92b4ff15",
+        "id": "0f291dbc7ad62207",
         "type": "tabs",
         "children": [
           {
-            "id": "eb899ed262820b13",
+            "id": "1c4772276b565cb2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -85,12 +85,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "eb899ed262820b13",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "Calendar"
+              },
+              "icon": "tasknotes-simple",
+              "title": "calendar-default"
+            }
+          },
+          {
             "id": "a012b6df90e78276",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "00_Inbox/bufferPages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "bufferPages 的反向链接列表"
             }
           },
           {
@@ -165,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 507.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -189,15 +202,31 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "eb899ed262820b13",
+  "active": "1c4772276b565cb2",
   "lastOpenFiles": [
-    "90_System/92_Templater/daily.md",
-    "00_Inbox/n8n脚本/n8n 日报模板1.md",
     "00_Inbox/bufferPages.md",
-    "80_Dashboard/kanban-tasknotes-ISOFT.base",
+    "10_Me/notes/文件夹命名.md",
     "20_Career/notes/粘贴板.md",
     "20_Career/notes/开发环境.md",
+    "30_Jouney/Week/未命名.md",
+    "30_Jouney/Month/未命名.md",
+    "30_Jouney/Day/未命名.md",
+    "80_Dashboard/kanban-tasknotes-ISOFT.base",
     "90_System/91_Attachment/未命名-1774800400146.webp",
+    "90_System/93_Quickadd/未命名.md",
+    "90_System/94_DataviewJs/TimeViewScript_Full.md",
+    "90_System/92_Templater/每天的行为追踪.md",
+    "90_System/92_Templater/时间log.md",
+    "90_System/92_Templater/daily.md",
+    "TaskNotes/Tasks/AUTOSAR时间同步模块维护.md",
+    "TaskNotes/Tasks/AUTOSAR网络管理模块维护.md",
+    "90_System/94_DataviewJs/TimeViewScript_Func.js",
+    "原文链接.md",
+    "90_System/94_DataviewJs",
+    "TaskNotes/Tasks/自动工作流服务器_n8n.md",
+    "TaskNotes/Views/calendar-default.base",
+    "90_System/93_Quickadd",
+    "00_Inbox/n8n脚本/n8n 日报模板1.md",
     "90_System/91_Attachment/Pasted image 20260330000334.png",
     "40_Jouney/未命名.md",
     "00_Inbox/n8n脚本/n8n 选择添加Json值.md",
@@ -209,17 +238,10 @@
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
-    "TaskNotes/Tasks/自动工作流服务器_n8n.md",
     "TaskNotes/Tasks/测试子任务.md",
-    "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/calendar-default.base",
     "HomePages.md",
     "TaskNotes/Tasks/测试子任务功能.md",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "TaskNotes/Tasks",
     "Untitled Kanban.md",
-    "10_Me/Notes/文件夹命名.md",
-    "10_Me/Notes.md",
-    "欢迎.md"
+    "10_Me/Notes/文件夹命名.md"
   ]
 }
