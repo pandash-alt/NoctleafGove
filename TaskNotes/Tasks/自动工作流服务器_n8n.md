@@ -8,9 +8,6 @@ tags:
   - life
   - work
   - task
-blockedBy:
-  - uid: "[[测试子任务功能]]"
-    reltype: FINISHTOSTART
 ---
 
 了解 n8n 平台，获取输入日期的 Todoist 和 Toggl track 信息并通过 AI 汇总成日报，获取指定时间段的两者信息通过 AI 汇总成周报
@@ -20,4 +17,5 @@ blockedBy:
 | Resource          |
 | ----------------- |
 | [[Docker 命令#n8n]] |
+|                   |
 

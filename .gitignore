@@ -1,1 +1,23 @@
-# .obsidian/
+# --- 必须忽略的文件 (避免冲突和垃圾数据) ---
+
+# 1. 窗口布局和工作区状态 (这个最容易冲突，必须忽略)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-*.json
+
+# 2. 缓存文件
+.obsidian/cache/
+
+# 3. 核心插件的特定状态 (可选，看你是否需要同步侧边栏折叠状态等)
+.obsidian/core-plugins-migration.json 
+
+# --- 建议同步的文件 (保持体验一致) ---
+
+# 1. 主题外观
+.obsidian/appearance.json
+
+# 2. 核心插件开关 (保证基础功能一致)
+.obsidian/core-plugins.json
+
+# 3. 社区插件配置 (需谨慎)
+.obsidian/plugins/obsidian-git

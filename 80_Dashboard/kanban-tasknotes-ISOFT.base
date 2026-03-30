@@ -41,9 +41,19 @@ formulas:
   urgencyScore: if(!due && !scheduled, formula.priorityWeight, formula.priorityWeight + max(0, 10 - formula.daysUntilNext))
   timeTrackedFormatted: if(timeEntries, if(list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) >= 60, (list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) / 60).floor() + "h " + (list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) % 60).round() + "m", list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0).round() + "m"), "0m")
   dueDateDisplay: if(!due, "", if(date(due).date() == today(), "Today", if(date(due).date() == today() + "1d", "Tomorrow", if(date(due).date() == today() - "1d", "Yesterday", if(date(due) < today(), formula.daysUntilDue * -1 + "d ago", if(date(due) <= today() + "7d", date(due).format("ddd"), date(due).format("MMM D")))))))
+  未命名: ""
 views:
-  - type: tasknotesCalendar
-    name: Calendar
+  - type: tasknotesKanban
+    name: Kanban Board
+    filters:
+      or:
+        - file.hasLink("TaskNotes/Areas/AUTOSAR 网络管理")
+        - file.hasLink("TaskNotes/Areas/AUTOSAR 时间同步")
+        - file.hasLink("TaskNotes/Areas/测试&交付支持")
+        - file.hasLink("TaskNotes/Areas/产品研发管理杂项")
+    groupBy:
+      property: status
+      direction: ASC
     order:
       - status
       - priority
@@ -57,17 +67,12 @@ views:
       - recurrence
       - complete_instances
       - file.tasks
+      - formula.未命名
     options:
-      showScheduled: true
-      showDue: true
-      showRecurring: true
-      showTimeEntries: true
-      showTimeblocks: true
-      showPropertyBasedEvents: true
-      calendarView: timeGridWeek
-      customDayCount: 3
-      firstDay: 0
-      slotMinTime: 06:00:00
-      slotMaxTime: 22:00:00
-      slotDuration: 00:30:00
-    calendarView: timeGridWeek
+      columnWidth: 280
+      hideEmptyColumns: false
+    columnOrder: '{"note.status":["none","open","in-progress","done"]}'
+    explodeListColumns: true
+    enableSearch: false
+    hideEmptyColumns: false
+    consolidateStatusIcon: true
