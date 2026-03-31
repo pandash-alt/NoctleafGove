@@ -78,7 +78,7 @@ async function renderTimeline(dv, targetDateStr) {
                         const headDesc = headMatch[2].trim();
                         allEntries.push({
                             timeObj: start,
-                            timeDisplay: timeStr,
+                            timeDisplay: `${timeStr}${durationText}`,
                             brief: headBrief,
                             type: 'head',
                             description: headDesc,
@@ -90,7 +90,7 @@ async function renderTimeline(dv, targetDateStr) {
                     // 3. 普通条目
                     allEntries.push({
                         timeObj: start,
-                        timeDisplay: timeStr,
+                        timeDisplay: `${timeStr}${durationText}`,
                         brief: "",
                         type: 'normal',
                         description: desc || "无具体记录内容",
@@ -102,7 +102,7 @@ async function renderTimeline(dv, targetDateStr) {
 
         // --- B. 处理行内 Timelog ---
         // const timelogRegex = /\[Timelog::\s*(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})\s*-\s*@desc\((.*?)\)\]/;
-        const timelogRegex = /\[Timelog::\s*(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})\s*-\s*@desc\((.*?)\)(.*?)\]/;
+        const timelogRegex = /\[Timelog::\s*(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2})\s*-\s*@desc\((.*?)\)(.*?)\]/;
         
         try {
             const file = app.vault.getFileByPath(page.file.path);
@@ -119,7 +119,7 @@ async function renderTimeline(dv, targetDateStr) {
                         
                         if (logDate !== targetDateStr) continue;
 
-                        const fullTimeStr = `${logDate}T${timeStr}:00`;
+                        const fullTimeStr = `${logDate}T${timeStr}`;
                         const timeObj = dv.date(fullTimeStr).setZone(CONFIG.TIMEZONE);
 
                         allEntries.push({

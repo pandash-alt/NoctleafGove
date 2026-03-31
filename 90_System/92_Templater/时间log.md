@@ -9,7 +9,7 @@ let descTag = "";
 if (!desc || desc.trim() === "") { 
 	descTag = " @desc(未填写描述)"; 
 } else {
-	descTag = " @desc(${desc})"; 
+	descTag = ` @desc(${desc})`; 
 }
 
 /** 3. 心情单选（可取消，取消则为空） **/ 
