@@ -1,9 +1,9 @@
 ---
 title: 自动工作流服务器_n8n
-status: in-progress
+status: none
 priority: normal
 dateCreated: 2026-03-29T17:38:35.541+08:00
-dateModified: 2026-03-30T21:08:01.708+08:00
+dateModified: 2026-04-01T21:59:15.683+08:00
 tags:
   - life
   - work

@@ -21,3 +21,4 @@
 
 # 3. 社区插件配置 (需谨慎)
 .obsidian/plugins/obsidian-git
+.obsidian/workspace.json
