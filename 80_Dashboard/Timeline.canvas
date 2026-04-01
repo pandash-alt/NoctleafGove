@@ -1,4 +1,6 @@
 {
-	"nodes":[],
+	"nodes":[
+		{"id":"c683a2435572c781","x":-300,"y":-200,"width":1220,"height":800,"type":"file","file":"30_Jouney/Day/2026-04-01.md"}
+	],
 	"edges":[]
 }

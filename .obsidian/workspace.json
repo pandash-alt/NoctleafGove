@@ -1,20 +1,29 @@
 {
   "main": {
-    "id": "5ac51720b1f10803",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "aa469cef87facf5a",
+        "id": "497bdd4b17a5a1b0",
         "type": "tabs",
         "children": [
           {
-            "id": "bac3f4f6a4916326",
+            "id": "101767ccc7ccc196",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "canvas",
+              "state": {
+                "file": "HomePages.canvas",
+                "viewState": {
+                  "x": 1040,
+                  "y": -480,
+                  "zoom": -0.7152705230668873
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "HomePages"
             }
           }
         ]
@@ -74,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6eb9f78f0ab5117b",
@@ -199,33 +209,36 @@
       "tasknotes:Open kanban board": true,
       "tasknotes:Open pomodoro": false,
       "tasknotes:Open pomodoro stats": true,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "bac3f4f6a4916326",
+  "active": "101767ccc7ccc196",
   "lastOpenFiles": [
-    "90_System/94_DataviewJs/TimeViewScript_Full.md",
-    "90_System/92_Templater/每天的行为追踪.md",
-    "30_Jouney/Day/2026-03-31.md",
-    "TaskNotes/Tasks/AUTOSAR网络管理模块维护.md",
-    "TaskNotes/Tasks/网络管理 DBC 导入需求支持.md",
-    "TaskNotes/Tasks/网络管理 V3.1 开发.md",
-    "TaskNotes/Areas/测试&交付支持.md",
     "TaskNotes/Tasks/AUTOSAR时间同步模块维护.md",
-    "80_Dashboard/Tasks 面板.md",
+    "TaskNotes/Tasks/AUTOSAR网络管理模块维护.md",
+    "30_Jouney/Day/2026-04-01.md",
+    "TaskNotes/Tasks/网络管理 V3.1 开发.md",
+    "HomePages.canvas",
+    "80_Dashboard/Tasks-kanban.md",
+    "90_System/94_DataviewJs/TimeViewScript_Full.md",
+    "80_Dashboard/Timeline.canvas",
+    "80_Dashboard/taskNotes-kanban-ISOFT.base",
+    "80_Dashboard/timelog.md",
+    "90_System/92_Templater/每天的行为追踪.md",
+    "20_Career/notes/粘贴板.md",
+    "20_Career/notes/开发环境.md",
+    "TaskNotes/Areas/测试&交付支持.md",
+    "30_Jouney/Day/2026-03-31.md",
+    "TaskNotes/Tasks/网络管理 DBC 导入需求支持.md",
     "00_Inbox/bufferPages.md",
     "TaskNotes/Tasks/自动工作流服务器_n8n.md",
     "90_System/92_Templater/时间log.md",
     "TaskNotes/Tasks/验证需求对应的工具改动 🆔 xqjlkn.md",
-    "80_Dashboard/Timeline.canvas",
-    "HomePages.canvas",
     "80_Dashboard/未命名.base",
     "未命名.base",
     "30_Jouney/Day/未命名.md",
-    "80_Dashboard/kanban-tasknotes-ISOFT.base",
     "10_Me/notes/文件夹命名.md",
-    "20_Career/notes/粘贴板.md",
-    "20_Career/notes/开发环境.md",
     "30_Jouney/Week/未命名.md",
     "30_Jouney/Month/未命名.md",
     "90_System/91_Attachment/未命名-1774800400146.webp",
@@ -238,9 +251,6 @@
     "90_System/93_Quickadd",
     "00_Inbox/n8n脚本/n8n 日报模板1.md",
     "90_System/91_Attachment/Pasted image 20260330000334.png",
-    "40_Jouney/未命名.md",
-    "00_Inbox/n8n脚本/n8n 选择添加Json值.md",
-    "00_Inbox/n8n脚本/Todoist 整合comment.md",
     "00_Inbox/n8n脚本",
     "50_Dashboard",
     "TaskNotes/Views/kanban-default.base"
