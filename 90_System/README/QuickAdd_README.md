@@ -15,7 +15,8 @@
 前文提要: [[90_System/README/Dataview_README#TimeViewScript|TimeViewScript]]
 该脚本为自动填写 **timeEntries.description**: 
 1. 检查当前页面是否是 **TaskNotes** 页面
-2. 检测当前页面是否正在进行**时间跟踪**
+2. 检测当前页面是否正在进行 **时间跟踪**
 3. 检测正在进行时间追踪的的 **timeEntries.description** 是否为空
 4. 检测当前鼠标是否有已经选中的文本
 5. 当满足以上四点情况后，弹出下拉框选择前缀信息，如tasks、head，弹出文本框可选的填入描述信息（对应{简要}）。结合第四步选中的文本整理成完整的 **timeEntries.description** 信息并填入
+

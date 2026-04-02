@@ -1,5 +1,104 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "155e5c93-3b0c-40c3-bf4c-af6d467f666f",
+      "name": "新建每天的页面",
+      "type": "Template",
+      "command": false,
+      "templatePath": "90_System/92_Templater/每天的行为追踪.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "30_Jouney/Days"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "8064c078-ba65-42b5-a2ac-00d82e8b826b",
+      "name": "捕获文本更新时间实体描述",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "捕获文本更新时间实体描述",
+        "id": "f3bb633e-c7c8-4e87-9eef-f70d98099a7c",
+        "commands": [
+          {
+            "name": "TimeTrack_DetectActive",
+            "type": "UserScript",
+            "id": "a5c5783b-499b-4289-a829-c79e0f1cc288",
+            "path": "90_System/93_QuickAdd/TimeTrack_DetectActive.js",
+            "settings": {}
+          },
+          {
+            "name": "Common_GetSelection",
+            "type": "UserScript",
+            "id": "e30b67f7-074b-4f6d-8333-9727a10c3fe9",
+            "path": "90_System/93_QuickAdd/Common_GetSelection.js",
+            "settings": {}
+          },
+          {
+            "name": "TimeTrack_UpdateDescription",
+            "type": "UserScript",
+            "id": "59075cf3-0d29-4495-940d-3e552d8fda1a",
+            "path": "90_System/93_QuickAdd/TimeTrack_UpdateDescription.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "dcb5695c-06fd-4940-b396-72bad158fcb1",
+      "name": "插入时间日志到指定位置",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "插入时间日志到指定位置",
+        "id": "e0e363c9-fb10-42c8-87a8-9b114fb939ef",
+        "commands": [
+          {
+            "name": "TimeTrack_DetectActive",
+            "type": "UserScript",
+            "id": "07af6f13-85c5-4640-acf8-484f97ebbac5",
+            "path": "90_System/93_QuickAdd/TimeTrack_DetectActive.js",
+            "settings": {}
+          },
+          {
+            "name": "TimeTrack_ResolveInsertPosition",
+            "type": "UserScript",
+            "id": "6a3a2c7f-afe8-456f-b805-40e7826620b9",
+            "path": "90_System/93_QuickAdd/TimeTrack_ResolveInsertPosition.js",
+            "settings": {}
+          },
+          {
+            "name": "TimeTrack_InsertTimelog",
+            "type": "UserScript",
+            "id": "ffed83e5-84b0-4c4a-bf51-162d6df78b7b",
+            "path": "90_System/93_QuickAdd/TimeTrack_InsertTimelog.js",
+            "settings": {}
+          }
+        ]
+      }
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,

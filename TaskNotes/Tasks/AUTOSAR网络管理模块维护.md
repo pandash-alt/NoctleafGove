@@ -3,7 +3,7 @@ title: AUTOSAR网络管理模块维护
 status: open
 priority: normal
 dateCreated: 2026-03-30T16:47:57.387+08:00
-dateModified: 2026-04-01T16:42:22.919+08:00
+dateModified: 2026-04-02T14:53:10.035+08:00
 tags:
   - task
 projects:
@@ -36,16 +36,21 @@ timeEntries:
   - startTime: 2026-04-01T08:06:41.579Z
     description: "@tasks[ogjgnl] MR 处理"
     endTime: 2026-04-01T08:42:22.919Z
+  - startTime: 2026-04-02T05:40:00.000Z
+    description: "@meeting[NULL] SEooC 编写以及线上化指导"
+    endTime: 2026-04-02T06:28:50.966Z
 ---
 
 ## 问题单处理
 - [ ] #TODO #bugFix LinSMSchedule 多变体配置生成缺陷问题 ⏫ ➕ 2026-03-30 🆔 ogjgnl 
+[Timelog::2026-04-02 14:33:26 - @desc(按照与梁老板沟通，LinSMSchedule 多变体需求结合上下层级模块分析后直接调整改处逻辑，因为当前需求上下模块需求冗余不明) @mood(🛑 想要逃离)]
 [Timelog::2026-04-01 16:06:04 - @desc(无法创建 DD 类型的 Jira，不能怪我偷懒了) @mood(🛑 想要逃离)]
 [Timelog::2026-04-01 16:42:29 - @desc(创建 DD，整理 Jira，提交 MR 通知梁老板跑代码检视) @mood(🛑 想要逃离)]
 - [ ] #TODO #bugFix CPT-18357: Nm状态通知函数中，回调BswM_Nm_StateChangeNotification逻辑错误 🔺 ➕ 2026-04-01 📅 2026-04-01 🆔 k068dy 
-[Timelog::2026-04-01 10:37:29 - @desc(SWS_Nm_00487 未指明 BswM 的回调与 NmStateReportEnabled 是否相关。该配置项的描述看起来是为了 NMS 信息是否传出用，与 BswM 并无联系，试图在 AutosarJira 上找下信息) @mood(🌪️ 焦躁不安)]
-[Timelog::2026-04-01 10:57:53 - @desc(AutosarJira 上未指明 BswM 的回调与通道配置项的关系，其他家代码也没有这个回调，勇敢尝试下直接改成无条件调用呢) @mood(🛑 想要逃离)]
-[Timelog::2026-04-01 11:05:39 - @desc(已经提交MR，等待门禁情况。因为增加了 BswM 的无条件回调，不确定单元测试代码是否报错) @mood(🛑 想要逃离)]
+	- [Timelog::2026-04-01 10:37:29 - @desc(SWS_Nm_00487 未指明 BswM 的回调与 NmStateReportEnabled 是否相关。该配置项的描述看起来是为了 NMS 信息是否传出用，与 BswM 并无联系，试图在 AutosarJira 上找下信息) @mood(🌪️ 焦躁不安)]
+	- [Timelog::2026-04-01 10:57:53 - @desc(AutosarJira 上未指明 BswM 的回调与通道配置项的关系，其他家代码也没有这个回调，勇敢尝试下直接改成无条件调用呢) @mood(🛑 想要逃离)]
+	- [Timelog::2026-04-01 11:05:39 - @desc(已经提交MR，等待门禁情况。因为增加了 BswM 的无条件回调，不确定单元测试代码是否报错) @mood(🛑 想要逃离)]
+	- [ ] #TODO NmStatechange 改动同步到 release_v2.2.2/develop_2.x ➕ 2026-04-02
 
 
 
@@ -57,8 +62,6 @@ timeEntries:
 	- [Timelog::2026-03-30 18:26 - @desc(TCPP-6155)]
 	- [x] #TODO 验证2026-03-30需求对应的工具改动 🆔 xqjlkn ➕ 2026-03-31 ✅ 2026-03-31
 	- [Timelog::2026-03-31 15:57:37 - @desc(确认工具改动能够通过编译，但是设计一丁点 ComM 改动确认都需要同步到哪些分支)]
-
-
 
 
 ---

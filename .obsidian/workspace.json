@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "9a7423421aa1963d",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "e4486c66149353e8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,30 +18,15 @@
                 "viewState": {
                   "x": 1040,
                   "y": -480,
-                  "zoom": -1.6520766965796934
+                  "zoom": -0.9322897723044836
                 }
               },
               "pinned": true,
               "icon": "lucide-layout-dashboard",
               "title": "HomePages"
             }
-          },
-          {
-            "id": "d2733c14fa8bbf02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TaskNotes/Areas/文字行为.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "文字行为"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#BUG",
+                "query": "测试时间",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 262.5
   },
   "right": {
     "id": "6eb9f78f0ab5117b",
@@ -227,47 +212,46 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d2733c14fa8bbf02",
+  "active": "e11fa7595347a17f",
   "lastOpenFiles": [
-    "TaskNotes/Areas/文字行为.md",
-    "00_Inbox/n8n脚本/n8n 日报模板1.md",
-    "90_System/README/Templater_README.md",
+    "HomePages.canvas",
+    "TaskNotes/Tasks/AUTOSAR时间同步模块维护.md",
+    "30_Jouney/Days/2026-04-02.md",
     "90_System/README/QuickAdd_README.md",
     "90_System/README/Dataview_README.md",
-    "90_System/92_Templater/时间日志.md",
-    "90_System/README/ForVault.md",
-    "TaskNotes/Tasks/灵魂镣铐.md",
-    "90_System/92_Templater/每天的行为追踪.md",
+    "90_System/93_QuickAdd/TimeTrack_InsertTimelog.js",
+    "90_System/93_QuickAdd/TimeTrack_ResolveInsertPosition.js",
     "TaskNotes/Tasks/AUTOSAR网络管理模块维护.md",
-    "30_Jouney/Day/2026-03-31.md",
-    "HomePages.canvas",
-    "30_Jouney/Day/2026-04-01.md",
+    "TaskNotes/Tasks/网络管理 V3.1 开发.md",
+    "90_System/93_QuickAdd/3.js",
+    "90_System/93_QuickAdd/2.js",
+    "90_System/93_QuickAdd/TimeTrack_UpdateDescription.js",
+    "90_System/93_QuickAdd/Common_GetSelection.js",
+    "90_System/93_QuickAdd/TimeTrack_DetectActive.js",
+    "TaskNotes/Tasks/灵魂镣铐.md",
+    "TaskNotes/Tasks/工作周报整理.md",
+    "90_System/93_QuickAdd/1.js",
+    "90_System/README/2026-04-02.md",
+    "90_System/README/Templater_README.md",
+    "90_System/README/ForVault.md",
+    "TaskNotes/Tasks/网络管理功能安全开发前期信息整理.md",
+    "90_System/93_QuickAdd",
+    "80_Dashboard/taskNotes-kanban-ISOFT.base",
+    "30_Jouney/Week/2026-W14.md",
+    "30_Jouney/Days/2026-04-01.md",
+    "30_Jouney/Days/2026-03-31.md",
+    "00_Inbox/bufferPages.md",
+    "30_Jouney/Day/未命名.md",
+    "TaskNotes/Areas/文字行为.md",
+    "00_Inbox/n8n脚本/n8n 日报模板1.md",
+    "90_System/92_Templater/时间日志.md",
+    "90_System/92_Templater/每天的行为追踪.md",
     "TaskNotes/Tasks/自动工作流服务器_n8n.md",
     "TaskNotes/Tasks/网络管理 DBC 导入需求支持.md",
     "90_System/94_DataviewJs/TimeViewScript_Full.md",
-    "90_System/README",
-    "TaskNotes/Tasks/网络管理 V3.1 开发.md",
     "TaskNotes/Areas/长命百岁.md",
-    "TaskNotes/Tasks/AUTOSAR时间同步模块维护.md",
-    "80_Dashboard/Tasks-kanban.md",
     "80_Dashboard/Timeline.canvas",
-    "80_Dashboard/taskNotes-kanban-ISOFT.base",
-    "80_Dashboard/timelog.md",
-    "20_Career/notes/粘贴板.md",
-    "20_Career/notes/开发环境.md",
-    "TaskNotes/Areas/测试&交付支持.md",
-    "00_Inbox/bufferPages.md",
-    "TaskNotes/Tasks/验证需求对应的工具改动 🆔 xqjlkn.md",
-    "80_Dashboard/未命名.base",
-    "未命名.base",
-    "30_Jouney/Day/未命名.md",
     "90_System/91_Attachment/未命名-1774800400146.webp",
-    "90_System/94_DataviewJs/TimeViewScript_Func.js",
-    "90_System/94_DataviewJs",
-    "TaskNotes/Views/calendar-default.base",
-    "90_System/93_QuickAdd",
-    "90_System/91_Attachment/Pasted image 20260330000334.png",
-    "00_Inbox/n8n脚本",
-    "50_Dashboard"
+    "90_System/91_Attachment/Pasted image 20260330000334.png"
   ]
 }
