@@ -47,7 +47,7 @@ views:
     name: Kanban Board
     filters:
       or:
-        - file.inFolder("TaskNotes/Tasks_ISOFT")
+        - file.inFolder("TaskNotes/Tasks_LIFE")
     groupBy:
       property: status
       direction: ASC

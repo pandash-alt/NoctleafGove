@@ -6,5 +6,7 @@
   "templater-obsidian",
   "tasknotes",
   "image-converter",
-  "homepage"
+  "homepage",
+  "metaedit",
+  "buttons"
 ]
