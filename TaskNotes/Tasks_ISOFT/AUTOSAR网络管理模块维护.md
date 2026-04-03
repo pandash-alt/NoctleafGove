@@ -1,9 +1,9 @@
 ---
 title: AUTOSAR网络管理模块维护
-status: open
+status: none
 priority: normal
 dateCreated: 2026-03-30T16:47:57.387+08:00
-dateModified: 2026-04-02T14:53:10.035+08:00
+dateModified: 2026-04-03T15:50:42.435+08:00
 tags:
   - task
 projects:
@@ -39,18 +39,28 @@ timeEntries:
   - startTime: 2026-04-02T05:40:00.000Z
     description: "@meeting[NULL] SEooC 编写以及线上化指导"
     endTime: 2026-04-02T06:28:50.966Z
+  - startTime: 2026-04-03T01:48:51.647Z
+    description: 支持工具开发理解 CPT-18209
+    endTime: 2026-04-03T02:28:55.003Z
+  - startTime: 2026-04-03T06:10:00.000Z
+    description: "支持工具开发理解 CPT-18209: 终于找到了这几个回调的位置"
+    endTime: 2026-04-03T07:10:00.000Z
+  - startTime: 2026-04-03T07:10:00.000Z
+    description: 星宇项目 Nm 自定义回调函数问题方案回复
+    endTime: 2026-04-03T07:28:43.400Z
 ---
 
 ## 问题单处理
-- [ ] #TODO #bugFix LinSMSchedule 多变体配置生成缺陷问题 ⏫ ➕ 2026-03-30 🆔 ogjgnl 
+- [x] #TODO #bugFix LinSMSchedule 多变体配置生成缺陷问题 🆔 ogjgnl ⏫ ➕ 2026-03-30 📅 2026-04-03 ✅ 2026-04-03
 [Timelog::2026-04-02 14:33:26 - @desc(按照与梁老板沟通，LinSMSchedule 多变体需求结合上下层级模块分析后直接调整改处逻辑，因为当前需求上下模块需求冗余不明) @mood(🛑 想要逃离)]
 [Timelog::2026-04-01 16:06:04 - @desc(无法创建 DD 类型的 Jira，不能怪我偷懒了) @mood(🛑 想要逃离)]
-[Timelog::2026-04-01 16:42:29 - @desc(创建 DD，整理 Jira，提交 MR 通知梁老板跑代码检视) @mood(🛑 想要逃离)]
-- [ ] #TODO #bugFix CPT-18357: Nm状态通知函数中，回调BswM_Nm_StateChangeNotification逻辑错误 🔺 ➕ 2026-04-01 📅 2026-04-01 🆔 k068dy 
+[Timelog::2026-04-01 16:42:29 - @desc(创建 DD，整理 Jira，提交 MR 通知梁老板跑代码检视) @mood(🛑 想要逃离
+[Timelog::2026-04-03 11:11:58 - @desc(交接在另外\[\[LinSMSchedule 多变体需求重整\]\] 跟踪) @mood(🛑 想要逃离)]
+- [ ] #TODO #bugFix CPT-18357: Nm状态通知函数中，回调BswM_Nm_StateChangeNotification逻辑错误 🆔 k068dy 🔺 ➕ 2026-04-01 📅 2026-04-03
 	- [Timelog::2026-04-01 10:37:29 - @desc(SWS_Nm_00487 未指明 BswM 的回调与 NmStateReportEnabled 是否相关。该配置项的描述看起来是为了 NMS 信息是否传出用，与 BswM 并无联系，试图在 AutosarJira 上找下信息) @mood(🌪️ 焦躁不安)]
 	- [Timelog::2026-04-01 10:57:53 - @desc(AutosarJira 上未指明 BswM 的回调与通道配置项的关系，其他家代码也没有这个回调，勇敢尝试下直接改成无条件调用呢) @mood(🛑 想要逃离)]
 	- [Timelog::2026-04-01 11:05:39 - @desc(已经提交MR，等待门禁情况。因为增加了 BswM 的无条件回调，不确定单元测试代码是否报错) @mood(🛑 想要逃离)]
-	- [ ] #TODO NmStatechange 改动同步到 release_v2.2.2/develop_2.x ➕ 2026-04-02
+	- [ ] #TODO NmStatechange 改动同步到 release_v2.2.2/develop_2.x ➕ 2026-04-02 🛫 2026-04-03
 
 
 
@@ -67,3 +77,5 @@ timeEntries:
 ---
 [Timelog::2026-03-31 18:02:11 - @desc(支持测试: Carwakeup 回调传出的通道号错误，确认是单元测试代码问题，测试去修改他们的代码)]
 [Timelog::2026-04-01 14:00:31 - @desc(广汽准入规范: CP_SWS_LSduR_00020/CP_SWS_LSduR_00021 在 R24 规范上已移除，但是在广汽规范上输出出来了) @mood(🛑 想要逃离)]
+[Timelog::2026-04-03 10:28:38 - @desc(ComM_UM 对应的 Mode-switch-interface，Port 封装规则明晰根据分区直接提取，但是对应的 Interface 按照工具描述一定要对应到 Runable 上，但似乎又不是一个回调似乎不能直接关联在所有的 ComMChannel 上) @mood(🛑 想要逃离)]
+[Timelog::2026-04-03 14:44:09 - @desc(确认 ComM_UM 固定在 ComMChannel0 发起，但是跨核到相应的 User 核去向 SWC 回调) @mood(🛑 想要逃离)]

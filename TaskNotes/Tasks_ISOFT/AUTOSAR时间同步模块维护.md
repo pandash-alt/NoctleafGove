@@ -1,10 +1,10 @@
 ---
 title: AUTOSAR时间同步模块维护
-status: open
+status: none
 priority: normal
 scheduled: 2026-03-30
 dateCreated: 2026-03-30T16:47:46.301+08:00
-dateModified: 2026-04-02T18:33:40.483+08:00
+dateModified: 2026-04-03T11:17:44.106+08:00
 tags:
   - task
 projects:
@@ -31,7 +31,7 @@ timeEntries:
 
 
 ## 其他
-- [ ] #TODO V3.0 阶段时间同步模块评审文档材料补充 ⏫ ➕ 2026-03-30
+- [ ] #TODO V3.0 阶段时间同步模块评审文档材料补充 ⏫ ➕ 2026-03-30 🛫 2026-03-30
 
 ---
 [Timelog::2026-04-01 17:04:51 - @desc(TC4D9 时间同步挂死问题，测试方直接调整中断堆栈修复) @mood(🛑 想要逃离)]

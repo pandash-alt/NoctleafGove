@@ -2,7 +2,7 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "HomePages.canvas",
+      "value": "80_Dashboard/Homepage/HomePages.canvas",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Replace all open notes",

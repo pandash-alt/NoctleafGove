@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"a1ddc9a553f45742","type":"file","file":"80_Dashboard/panic/taskNotes-kanban-ISOFT.base","x":-360,"y":-1080,"width":1360,"height":780,"color":"1"},
+		{"id":"0a1f3e293bfc6929","type":"file","file":"80_Dashboard/panic/Tasks-kanban.md","x":1080,"y":-1080,"width":1360,"height":1200},
+		{"id":"e6f8ca5eddf110b6","type":"file","file":"80_Dashboard/panic/taskNotes-kanban-LIFE.base","x":2520,"y":-1080,"width":1360,"height":780,"color":"4"}
+	],
+	"edges":[]
+}

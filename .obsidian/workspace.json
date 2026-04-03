@@ -4,17 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "a5bc2ef0f1b13d3b",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "3738c4162af0d7cd",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "canvas",
+              "state": {
+                "file": "80_Dashboard/Homepage/HomePages.canvas",
+                "viewState": {
+                  "x": 751.061319852542,
+                  "y": -625.8538903143626,
+                  "zoom": -0.13514342490697084
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "HomePages"
             }
           }
         ]
@@ -203,17 +212,28 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e11fa7595347a17f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "TaskNotes/Tasks_LIFE/自动工作流服务器_n8n.md",
-    "TaskNotes/Tasks_LIFE/灵魂镣铐.md",
-    "TaskNotes/Areas/产品研发管理杂项.md",
-    "TaskNotes/Areas/人间观察报告.md",
-    "TaskNotes/Areas/有限精力使用说明.md",
+    "TaskNotes/Tasks_ISOFT/TC4D9 工程问题.md",
+    "TaskNotes/Tasks_ISOFT/LinSMSchedule 多变体需求重整.md",
+    "80_Dashboard/Homepage/HomePages.canvas",
+    "TaskNotes/Tasks_ISOFT/AUTOSAR网络管理模块维护.md",
+    "TaskNotes/Tasks_ISOFT/网络管理 V3.1 开发.md",
+    "TaskNotes/Tasks_Inbox",
     "TaskNotes/Areas/所行皆常.md",
+    "TaskNotes/Areas/人间观察报告.md",
+    "TaskNotes/Areas/产品研发管理杂项.md",
+    "TaskNotes/Tasks_LIFE/自动工作流服务器_n8n.md",
+    "TaskNotes/Tasks_ISOFT/工作周报整理.md",
+    "TaskNotes/Areas/有限精力使用说明.md",
+    "80_Dashboard/panic/Tasks-kanban.md",
+    "80_Dashboard/panic/taskNotes-kanban-ISOFT.base",
+    "80_Dashboard/panic",
+    "80_Dashboard/Homepage",
+    "80_Dashboard/panic/taskNotes-kanban-LIFE.base",
+    "TaskNotes/Tasks_LIFE/灵魂镣铐.md",
     "TaskNotes/Areas/丙午记流焰行图.md",
-    "80_Dashboard/Tasks-kanban.md",
-    "80_Dashboard/Timeline.canvas",
+    "80_Dashboard/panic/Timeline.canvas",
     "10_Chronicle/00_DiesIrae/2026-03-31.md",
     "10_Chronicle/05_LunaCycles/2026-M4.md",
     "10_Chronicle/10_TheEra/2026.md",
@@ -223,26 +243,14 @@
     "10_Chronicle/10_TheEra",
     "10_Chronicle/05_LunaCycles",
     "02_Chronicle/TempusRerum",
-    "80_Dashboard/taskNotes-kanban-LIFE.base",
-    "80_Dashboard/taskNotes-kanban-ISOFT.base",
     "TaskNotes/Areas/丙午微火修行录.md",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Tasks_Inbox/未命名.md",
-    "TaskNotes/Tasks_LIFE",
-    "TaskNotes/Tasks_ISOFT",
-    "HomePages.canvas",
     "TaskNotes/Tasks_ISOFT/AUTOSAR时间同步模块维护.md",
     "10_Chronicle/00_DiesIrae/2026-04-02.md",
     "90_System/README/QuickAdd_README.md",
     "90_System/README/Dataview_README.md",
-    "90_System/93_QuickAdd/TimeTrack_InsertTimelog.js",
-    "TaskNotes/Tasks_ISOFT/AUTOSAR网络管理模块维护.md",
-    "TaskNotes/Tasks_ISOFT/网络管理 V3.1 开发.md",
-    "TaskNotes/Tasks_ISOFT/工作周报整理.md",
     "90_System/README/2026-04-02.md",
-    "90_System/README/Templater_README.md",
-    "90_System/README/ForVault.md",
-    "TaskNotes/Tasks_ISOFT/网络管理功能安全开发前期信息整理.md",
     "90_System/91_Attachment/未命名-1774800400146.webp",
     "90_System/91_Attachment/Pasted image 20260330000334.png"
   ]
